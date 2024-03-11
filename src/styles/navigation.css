@@ -1,0 +1,91 @@
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, rgba(41, 216, 255, 0.4), rgba(255, 253, 130, 0.4), rgba(242, 54, 255, 0.4), rgba(252, 214, 255, 0.4));
+}
+
+p > span{
+    color: black;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.navigation{
+    display: flex;
+    position: sticky;
+    height: 55px;
+    background-image: linear-gradient(to bottom, #222222,#222222,#222222,#222222);
+    justify-content: space-between;
+}
+
+.nav-bar .icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000;
+    box-shadow:0px 0px 20px 10px #d2a3a3;
+}
+
+.nav-bar .icon .inner-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+  box-shadow:1px 1px 8px 2px #d2a3a3;
+    background-image: linear-gradient(to bottom right, rgba(77, 80, 244, 0.893), rgb(255, 255, 0, 0.2), rgb(255, 192, 203,0.8), rgba(179, 230, 140, 0.5));
+
+}
+
+
+.nav-bar .icon .inner-icon .inner-inner-icon{
+    transform: rotate(90deg);
+    width: 8px;
+    height: 8px;
+    border: none;
+    background-color: black;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    margin-bottom: 20px; /* Add spacing between select elements */
+  }
+
+.nav-btn p{
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+  
+  /* Hide original SELECT element */
+  
